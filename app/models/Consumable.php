@@ -14,8 +14,8 @@ class Consumable extends Elegant
     public $rules = array(
         'name'        => 'required|alpha_space|min:3|max:255',
         'qty'         => 'required|integer|min:0',
-        'category_id' => 'integer',
-        'company_id'  => 'required|integer',
+        'category_id' => 'required|integer',
+        'company_id'  => 'integer',
     );
 
     public function admin()
